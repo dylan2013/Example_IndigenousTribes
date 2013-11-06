@@ -12,8 +12,8 @@ namespace IndigenousTribes
         static public void Main()
         {
 
-            FISCA.Presentation.RibbonBarItem report = FISCA.Presentation.MotherForm.RibbonBarItems["學生", "統計資料"];
-            report["報表"]["公務統計報表"]["原住民族別"].Click += delegate
+            FISCA.Presentation.RibbonBarItem report = FISCA.Presentation.MotherForm.RibbonBarItems["學生", "資料統計"];
+            report["報表"]["公務統計相關報表"]["原住民族別統計"].Click += delegate
             {
                 Form2 f = new Form2();
                 f.ShowDialog();

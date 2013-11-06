@@ -19,6 +19,12 @@ namespace IndigenousTribes
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
+            //由此撰寫程式碼
+
+
+
+
+
 
         }
 
